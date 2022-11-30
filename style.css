@@ -35,10 +35,8 @@ body {
 }
 
 .main-header {
-  height: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #ffffff;
 
@@ -326,14 +324,14 @@ article p:first-child {
     font-size: 16px;
   }
 
-  .nav-link {
-    font-size: 18px;
-  }
-  .related-link {
-    margin-left: 10px;
-  }
-
   a {
     font-size: small;
+  }
+  .nav-link a {
+    font-size: 16px;
+  }
+
+  .related-link {
+    margin-left: 10px;
   }
 }
