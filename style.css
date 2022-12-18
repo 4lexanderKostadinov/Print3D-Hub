@@ -102,10 +102,55 @@ article {
   border: outset;
   border-radius: 20px 20px 20px 20px;
   border-color: #ff5500;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 98%;
   height: auto;
 }
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.steps-flex {
+  display: grid;
+  align-items: center;
+}
+
+.steps-links {
+  list-style: none;
+}
+
+.steps-link {
+  margin-bottom: 20px;
+  
+  /* margin-right: 100px;
+  margin-bottom: 0px; */
+}
+
+.steps-link-image {
+    display: block;
+    border: outset;
+    border-radius: 20px 20px 20px 20px;
+    /* border-color: #ff5500; */
+    margin: 20px auto;
+}
+
+.steps-link p {
+  text-align: center;
+}
+
+
+
+.color-flex {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* LVHA */
 .mdn-web-docs {
@@ -199,14 +244,15 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 20px;
 }
 
 h3 {
   font-size: 30px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 h4 {
