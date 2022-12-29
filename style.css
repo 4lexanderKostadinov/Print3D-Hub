@@ -26,11 +26,10 @@ body {
   padding-bottom: 0px;
   border-top: 10px solid #ff5500;
   border-bottom: 10px solid #ff5500;
-  border-radius: 10px;
 }
 
 .container {
-  width: 720px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -68,19 +67,6 @@ nav {
   margin-right: 4px;
   margin-bottom: 0px;
 }
-/* .nav-link::before {
-  content: "|";
-  left: -0px;
-  top: 50%;
-  transform: translateY(-5%);
-}
-
-.nav-link:first-child::before {
-  content: "";
-  left: -0px;
-  top: 50%;
-  transform: translateY(-5%);
-} */
 
 article {
   display: block;
@@ -103,7 +89,7 @@ article {
   border-radius: 20px 20px 20px 20px;
   border-color: #ff5500;
   margin: 20px auto;
-  width: 98%;
+  width: 80%;
   height: auto;
 }
 
@@ -121,6 +107,8 @@ article {
 
 .steps-links {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .steps-link {
@@ -286,11 +274,42 @@ li:last-child {
 article p:first-child {
   color: red;
 }
+
+.color-p {
+  text-align: center;
+}
+.end-p {
+  text-align: center;
+}
+
+.color-flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.color-box {
+  background-color: red;
+  height: 60px;
+  width: 180px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.color-1 {
+  background-color: green;
+}
+.color-2 {
+  background-color: blue;
+  margin-right: 0;
+}
+
 /* End */
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 360px;
+    width: 95%;
   }
 
   .main-header {
@@ -326,13 +345,19 @@ article p:first-child {
   .related-link {
     margin-left: 10px;
   }
+  
+
+  .steps-link-image {
+    width: 80%;
+  }
 
   p {
     font-size: 16px;
   }
+  
 }
 
-@media screen and (max-width: 380px) {
+/* @media screen and (max-width: 380px) {
   .container {
     width: 320px;
   }
@@ -356,7 +381,7 @@ article p:first-child {
     height: auto;
   } */
 
-  .header-flex {
+  /*.header-flex {
     margin: 4px;
     text-align: center;
   }
