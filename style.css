@@ -25,8 +25,6 @@ body {
   font-family: 'Libra Sans Modern', sans-serif;
   padding: 10px;
   padding-bottom: 0px;
-  /* background-color: var(--dark); */
-
   border-top: 10px solid #ff5500;
   border-bottom: 10px solid #ff5500;
 }
@@ -42,7 +40,6 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-
   box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   padding: 10px 10px;
@@ -54,11 +51,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 0%);
-
 }
 
 .first-header {
-  /* box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3); */
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -128,24 +123,18 @@ article {
 
 .steps-link {
   margin-bottom: 20px;
-  
-  /* margin-right: 100px;
-  margin-bottom: 0px; */
 }
 
 .steps-link-image {
     display: block;
     border: outset;
     border-radius: 20px 20px 20px 20px;
-    /* border-color: #ff5500; */
     margin: 20px auto;
 }
 
 .steps-link p {
   text-align: center;
 }
-
-
 
 .color-flex {
   list-style: none;
@@ -157,7 +146,6 @@ article {
 
 /* LVHA */
 .mdn-web-docs {
-  /* margin: auto auto auto 6px; */
   padding: 6px;
   border-style: outset;
   border-radius: 10px;
@@ -285,7 +273,6 @@ li:last-child {
   margin-bottom: 0;
 }
 
-/* This won't work */
 article p:first-child {
   color: red;
 }
@@ -337,13 +324,6 @@ article p:first-child {
     margin-bottom: 20px;
   }
 
-  /* .code-on-screen {
-    display: block;
-    margin: 0 auto;
-    width: 98%;
-    height: auto;
-  } */
-
   .header-flex {
     margin: 4px;
     text-align: center;
@@ -368,55 +348,4 @@ article p:first-child {
     font-size: 16px;
   }
   
-}
-
-/* @media screen and (max-width: 380px) {
-  .container {
-    width: 320px;
-  }
-
-  .main-header {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f7f7f7;
-    padding: 10px 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  /* .code-on-screen {
-    display: block;
-    margin: 0 auto;
-    width: 98%;
-    height: auto;
-  } */
-
-  /*.header-flex {
-    margin: 4px;
-    text-align: center;
-  }
-
-  aside {
-    width: auto;
-    margin: 0 auto;
-    padding: 20px 0px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  a {
-    font-size: small;
-  }
-  .nav-link a {
-    font-size: 16px;
-  }
-
-  .related-link {
-    margin-left: 10px;
-  }
 }
