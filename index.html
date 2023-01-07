@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
-      rel="icon"
-      href="img/icons8-3d-printer-color/icons8-3d-printer-48.png"
+      href="https://fonts.cdnfonts.com/css/libra-sans-modern"
+      rel="stylesheet"
     />
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet" />
+    <link rel="icon" href="img/icon/icon.png" />
     <title>Print3D-Hub</title>
   </head>
 
@@ -30,17 +32,20 @@
           <ul class="nav-links">
             <li class="nav-link"><a href="index.html">Начало</a></li>
             <li class="nav-link"><a href="pages/gallery.html">Галерия</a></li>
-            <li class="nav-link"><a href="#">За нас</a></li>
-            <li class="nav-link"><a href="#">Намерете ни</a></li>
+            <li class="nav-link"><a href="pages/about_us.html">За нас</a></li>
+            <li class="nav-link">
+              <a href="pages/find_us.html">Намерете ни</a>
+            </li>
           </ul>
         </nav>
       </header>
 
+
       <article>
         <header class="post-header">
-          <h2>The Basic Language of the Web: HTML</h2>
+          <h2>Дизайн и 3D принтиране</h2>
 
-          <img
+          <!-- <img
             src="img/laura-jones.jpg"
             alt="Headshot of Laura Jones"
             height="50"
@@ -49,48 +54,55 @@
 
           <p id="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-          </p>
+          </p> -->
 
           <img
             class="code-on-screen"
-            src="img/post-img.jpg"
+            src="img/website-img.jpg"
             alt="HTML code on a screen"
           />
         </header>
 
         <p>
-          All modern websites and web applications are built using three
-          <em>fundamental</em>
-          technologies: HTML, CSS and JavaScript. These are the languages of the
-          web.
+          Ние сме малко предприятие за принтиране на <strong>3D</strong> модели. Нашата цел е да превърнем вашият 3D модел в реален физически обект в рамките на няколко дена. Заедно можем да създадем вашият перфектен детайл с уникален дизайн, прототип или да отпечатаме нов продукт по ваше задание.
         </p>
 
         <p>
-          In this post, let's focus on HTML. We will learn what HTML is all
-          about, and why you too should learn it.
+          3D принтирането е подходящо за бърза изработка на малки производствени серии, прототипи или готови модели от най-различни материали.
         </p>
+        <div class="steps">
+          <h3>Как работим?</h3>
 
-        <h3>What is HTML?</h3>
-        <p>
-          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-          language that web developers use to structure and describe the content
-          of a webpage (not a programming language).
-        </p>
-        <p>
-          HTML consists of elements that describe different types of content:
-          paragraphs, links, headings, images, video, etc. Web browsers
-          understand HTML and render HTML code as websites.
-        </p>
-        <p>In HTML, each element is made up of 3 parts:</p>
-
-        <ol>
-          <li>The opening tag</li>
-          <li>The closing tag</li>
-          <li>The actual element</li>
-        </ol>
-
-        <p>
+          <nav class="steps-flex">
+            <ul class="steps-links">
+              <li class="steps-link">
+                <img
+                  class="steps-link-image"
+                  src="img/stl_file.jpg"
+                  alt="Send STL File"
+                />
+                <p>Пратете ни STL файл</p>
+              </li>
+              <li class="steps-link">
+                <img
+                  class="steps-link-image"
+                  src="img/requirements.jpg"
+                  alt="Choose your customization "
+                />
+                <p>Изберете предпочитанията си</p>
+              </li>
+              <li class="steps-link">
+                <img
+                  class="steps-link-image"
+                  src="img/ship.jpg"
+                  alt="Shipping"
+                />
+                <p>Предаване на 3D модела</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <p>
           You can learn more at
           <a
             class="mdn-web-docs"
@@ -98,29 +110,24 @@
             target="_blank"
             >MDN Web Docs</a
           >.
+        </p> -->
+
+        <h3>Цветове</h3>
+
+        <p class="color-p">
+          В момента предлагаме три цвята, с които може да боядисаме вашия 3D
+          модел.
         </p>
 
-        <h3>Why should you learn HTML?</h3>
+        <div class="color-flex">
+          <div class="color-box" alt="Red"></div>
+          <div class="color-box color-1" alt="Green"></div>
+          <div class="color-box color-2" alt="Blue"></div>
+        </div>
 
-        <p>
-          There are countless reasons for learning the fundamental language of
-          the web. Here are 5 of them:
-        </p>
-
-        <ul>
-          <li class="first-li">
-            To be able to use the fundamental web dev language
-          </li>
-          <li>
-            To hand-craft beautiful websites instead of relying on tools like
-            Worpress or Wix
-          </li>
-          <li>To build web applications</li>
-          <li>To impress friends</li>
-          <li>To have fun 😃</li>
-        </ul>
-
-        <p>Hopefully you learned something new here. See you next time!</p>
+        <!-- <p class="end-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p> -->
       </article>
 
       <aside>
@@ -135,7 +142,7 @@
               width="75"
               width="75"
             />
-            <a class="related-link" href="#">Александър Костадинов</a>
+            <p class="related-link">Александър Костадинов</p>
           </li>
           <p class="related-author">Графичен дизайнер</p>
           <li class="related-item">
@@ -146,7 +153,7 @@
               width="75"
               heigth="75"
             />
-            <a class="related-link" href="#">Никола Каранфилов</a>
+            <p class="related-link">Никола Каранфилов</p>
           </li>
           <p class="related-author">Мениджър-поръчки</p>
           <!-- <li>
