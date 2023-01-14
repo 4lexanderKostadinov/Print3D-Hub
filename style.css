@@ -1,0 +1,333 @@
+:root {
+  --white: #ffffff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+
+  --primary: #00509d;
+  --secondary: #328ffe;
+  --tertiary: ##ff5500;
+  --success: #38b000;
+  --warning: #ffd60a;
+  --danger: #f9423d;
+  --dark: #222428;
+  --medium: #92949c;
+  --light: #fafafa;
+  --blue: #328ffe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222428;
+  font-family: "Libra Sans", sans-serif;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-top: 10px solid #ff5500;
+  border-bottom: 10px solid #ff5500;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: fit-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.first-header {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Futura PT", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.header-flex {
+  margin: 4px;
+}
+.nav-links {
+  margin: 0;
+}
+
+.nav-link {
+  display: inline-flex;
+  margin-right: 4px;
+  margin-bottom: 0px;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+article {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.post-header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.code-on-screen {
+  display: block;
+  border: outset;
+  border-radius: 20px 20px 20px 20px;
+  border-color: #ff5500;
+  margin: 20px auto;
+  width: 80%;
+  height: auto;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.steps-flex {
+  display: grid;
+  align-items: center;
+}
+
+.steps-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.steps-link {
+  margin-bottom: 20px;
+}
+
+.steps-link-image {
+  display: block;
+  border: outset;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px auto;
+}
+
+.steps-link p {
+  text-align: center;
+}
+
+.color-flex {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+/* LVHA */
+.mdn-web-docs {
+  padding: 6px;
+  border-style: outset;
+  border-radius: 10px;
+}
+
+a:link {
+  color: #ff5500;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff5500;
+}
+
+a:hover {
+  color: #328ffe;
+  font-weight: bold;
+  transition: ease-in-out 0.2s;
+}
+
+aside {
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  border-top: 5px solid #ff5500;
+  border-bottom: 5px solid #ff5500;
+  border-radius: 10px;
+  padding: 40px 0px;
+  width: 500px;
+}
+
+.related-title {
+  margin-bottom: 20px;
+}
+
+.related-author {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.related-img {
+  border-radius: 10px;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.related-item {
+  display: flex;
+  align-items: center;
+}
+
+.related-link {
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+#copyright {
+  margin-bottom: 2px;
+  color: #222428;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #ff5500;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+ul,
+ol {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.color-p {
+  text-align: center;
+}
+.end-p {
+  text-align: center;
+}
+
+.color-flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-box {
+  background-color: red;
+  height: 60px;
+  width: 180px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.color-1 {
+  background-color: green;
+}
+.color-2 {
+  background-color: blue;
+  margin-right: 0;
+}
+
+/* End */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header-flex {
+    margin: 4px;
+    text-align: center;
+  }
+
+  aside {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+
+  .related-link {
+    margin-left: 10px;
+  }
+
+  .steps-link-image {
+    width: 80%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

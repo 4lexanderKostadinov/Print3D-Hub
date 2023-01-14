@@ -1,0 +1,293 @@
+:root {
+  --white: #ffffff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+
+  --primary: #00509d;
+  --secondary: #328ffe;
+  --tertiary: ##ff5500;
+  --success: #38b000;
+  --warning: #ffd60a;
+  --danger: #f9423d;
+  --dark: #222428;
+  --medium: #92949c;
+  --light: #fafafa;
+  --blue: #328ffe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libra Sans", sans-serif;
+}
+
+body {
+  color: #222428;
+  font-family: "Libra Sans", sans-serif;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-top: 10px solid #ff5500;
+  border-bottom: 10px solid #ff5500;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: fit-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.first-header {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Futura PT", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.header-flex {
+  margin: 4px;
+}
+.nav-links {
+  margin: 0;
+}
+
+.nav-link {
+  display: inline-flex;
+  margin-right: 4px;
+  margin-bottom: 0px;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+article {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.post-header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* LVHA */
+a:link {
+  color: #ff5500;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff5500;
+}
+
+a:hover {
+  color: #328ffe;
+  font-weight: bold;
+  transition: linear 0.3s;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+#copyright {
+  margin-bottom: 2px;
+  color: #222428;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #ff5500;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul,
+ol {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.color-p,
+.end-p {
+  text-align: center;
+}
+
+/* Our Team */
+.header {
+  padding-top: 30px;
+  color: #444;
+  font-size: 20px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.sub-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teams {
+  margin: 10px;
+  padding: 22px;
+  margin: width 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+/* Don't delete*/
+.teams:hover {
+  transform: scale(1.1);
+  border-radius: 5%;
+  background: #f1f1f1;
+}
+
+.teams img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.name {
+  padding: 12px;
+  font-weight: bold;
+  font-style: 16px;
+  text-transform: uppercase;
+}
+
+.desig {
+  font-style: italic;
+  color: #999;
+}
+
+.about {
+  margin: 20px 0;
+  font-weight: lighter;
+  color: #ff5500;
+}
+
+.social-links {
+  margin: 14px;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  transition: 0.4s;
+}
+
+.social-links a:hover {
+  transform: scale(1.5);
+}
+
+.social-links a i {
+  color: #444;
+}
+/* End */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header-flex {
+    margin: 4px;
+    text-align: center;
+  }
+
+  .related-link {
+    margin-left: 10px;
+  }
+
+  .steps-link-image {
+    width: 80%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
